@@ -7,12 +7,75 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="work-sans-font">
-    <header>
-        <nav class="navbar">
+    <header class="bg-light">
+        <nav class="navbar display-flex">
             <h3 class="brand">G3 Architects</h3>
+            <ul class="nav-links display-flex">
+                <!-- li.nav-itme*4>a.nav-link -->
+                <li class="nav-itme"><a href="" class="nav-link text-gray">Home</a></li>
+                <li class="nav-itme"><a href="" class="nav-link text-gray">About</a></li>
+                <li class="nav-itme"><a href="" class="nav-link text-gray">Contact Us</a></li>
+                <li class="nav-itme"><a href="" class="nav-link text-gray">Login</a></li>
+            </ul>
         </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h1 class="banner-title">Brand New Group of Architects</h1>
+            <p class="banner-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere soluta consectetur repellendus minima illum vel porro laborum commodi, accusantium at voluptates aliquam iusto deserunt aperiam harum laudantium facilis officiis aliquid!</p>
+            <button class="btn-primary">Explore More</button>
+            </div>
+            <img class="banner-image" src="/images/banner.png" alt="">
+        </div>
     </header>
     <main>
+        <!-- Teams and Features section -->
+        <section class="teams display-flex">
+            <div class="team-img-container">
+                <img src="images/team1.png" alt="two architects discussing about design">
+                <img src="images/team2.png " alt="a determined leader with his team">
+                <img src="images/team3.png" alt="an employee showing his work to his boss">
+                <img src="images/team4.png" alt="shaking hands as a wishing good luck">
+            </div>
+            <div class="our-features">
+                <h3 class="section-title"><span id="quick-list" class="text-light-gray">Quick list</span> <span>of Our</span> <span class="text-primary">Features</span></h3>
+                <p class="feature-description text-light-gray">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero labore adipisci culpa fuga ipsam dolore amet quo. Aliquid, doloribus. Nostrum dignissimos in deserunt optio veniam aperiam neque nam necessitatibus qui?</p>
+                <button class="btn-primary">Explore More</button>
+            </div>
+
+        </section>
+        <!-- features you will love & enjoy -->
+        <section>
+            <h3 class="section-title">Features you will love & enjoy</h3>
+            <p class="text-light-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nihil repellendus delectus architecto assumenda illum nisi doloribus a voluptates eos laudantium officia, nostrum deleniti consequuntur itaque porro inventore facere maiores.</p>
+        </section>
+        <!-- Some Facts -->
+        <section class="some-facts">
+            <h3 class="section-title">Some Facts</h3>
+            <p class="text-light-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sint voluptatum eum possimus velit culpa aperiam officiis nemo. Vero esse, repellendus totam delectus aut quam expedita eos inventore odit. Distinctio.</p>
+            <div class="facts-container">
+                 <!-- .fact*4>img.fact-icon+h4.fact-number+h5.fact-name -->
+                 <div class="fact">
+                    <img src="images/icons/ribon.png" alt="winner ribon" class="fact-icon">
+                    <h4 class="fact-number">54</h4>
+                    <h5 class="fact-name">Award Winnings</h5>
+                 </div>
+                 <div class="fact">
+                    <img src="images/icons/projects.png" alt="projects" class="fact-icon">
+                    <h4 class="fact-number">1458</h4>
+                    <h5 class="fact-name">Project Finished</h5>
+                 </div>
+                 <div class="fact">
+                    <img src="images/icons/customers.png" alt="customers" class="fact-icon">
+                    <h4 class="fact-number">590</h4>
+                    <h5 class="fact-name">Clients Worked</h5>
+                 </div>
+                 <div class="fact">
+                    <img src="images/icons/email.png" alt="emails" class="fact-icon">
+                    <h4 class="fact-number">22578</h4>
+                    <h5 class="fact-name">Email Send</h5>
+                 </div>
+            </div>
+        </section>
 
     </main>
     <footer>
